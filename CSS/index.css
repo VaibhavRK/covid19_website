@@ -63,7 +63,7 @@ body{
     height: 25px;
     margin: 8px 0px;
     cursor: pointer;
-    padding: 10px 0px;
+    padding: 10px 10px;
 }
 
 .icons img:hover{
@@ -241,3 +241,91 @@ input:focus, textarea:focus, select:focus{
     transform: scale(1.1);
 }
 
+.dataOutput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -280px;
+    transition: all 1s ease-out;
+}
+
+.addHeight{
+    height: 200px;
+}
+
+.coverKrlo{
+    display: flex;
+    flex-direction: row;
+}
+.Card1{
+    display:flex;
+    flex-direction: column;
+    color: rgb(255, 0, 0);
+    padding: 10px;
+    background: rgb(8, 8, 8, .12549019607843137);
+    border-radius: 20px;
+    margin: 10px 5px;
+    transition: all 0.3s ease-out;
+}
+.Card1:hover{
+    background: rgba(250, 9, 9, 0.397);
+    transform: scale(1.1);
+}
+
+.Card2{
+    display:flex;
+    flex-direction: column;
+    color: rgb(0, 0, 255);
+    padding: 10px;
+    background: rgb(8, 8, 8, .12549019607843137);
+    transition: all 0.3s ease-out;
+    border-radius: 20px;
+    margin: 10px 5px;
+}
+.Card2:hover{
+    background: rgba(0, 0, 255, 0.308);
+}
+
+.Card3{
+    display:flex;
+    flex-direction: column;
+    color: rgb(19, 233, 19);
+    padding: 10px;
+    background: rgb(8, 8, 8, .12549019607843137);
+    transition: all 0.3s ease-out;
+    border-radius: 20px;
+    margin: 10px 5px;
+}
+.Card3:hover{
+    background: rgba(19, 233, 19, 0.418);
+}
+
+.Card4{
+    display:flex;
+    flex-direction: column;
+    color: rgb(252, 2, 218);
+    padding: 10px;
+    background: rgb(8, 8, 8, .12549019607843137);
+    transition: all 0.3s ease-out;
+    border-radius: 20px;
+    margin: 10px 5px;
+}
+.Card4:hover{
+    background: rgba(252, 2, 219, 0.623);
+}
+
+.num{
+    text-align: center;
+    margin: 10px auto;
+    font-size: 2.5rem;
+}
+
+
+.graphs{
+    display: flex;
+    /* flex-direction: column; */
+    margin: 40px 50px;
+    margin-left: 150px;
+    justify-content: center;
+}

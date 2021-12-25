@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Covid News</title>
+
+    <link rel="stylesheet" href="/CSS/news.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="scroll-up">
+        <img src="/img/arrow-up.png" alt="go up">
+    </div>
+
+    <div id="no-internet-conn">
+        <img src="/img/no-net.png" alt="">
+        <h2 style="text-align: center;">Oops It seems like you are offline !</h2>
+    </div>
+
+    <div id="body-container">
+        <div id="navbar">
+            
+            <div class="menu">
+                <li><a href="/HTML/index.html">Home</a></li>
+            </div>
+            
+            <div id="title"><h3>Covid News</h3></div>                
+
+        </div>
+
+        <div id="container">
+            <div id="genre-container">
+                <div id="news-by-lang">
+                    <h3>Get News By Language</h3>
+                    <button class="genre-lang genre" id="hi">Hindi</button>
+                    <button class="genre-lang genre" id="en">English</button>
+                </div>
+                <div id="news-by-nation">
+                    <h3>Get News By Country</h3>
+                    <button class="genre-country genre active" id="In">India</button>
+                    <button class="genre-country genre" id="US">US</button>
+                </div>
+            </div>
+
+            <div id="live-news">
+                <h3>Watch Live News</h3>
+                <button class="live-news">News 24</button>
+                <button class="live-news">IndiaTV</button>
+                <button class="live-news">NDTV</button>
+                <button class="live-news">WION</button>
+            </div>
+        </div>
+
+        <div id="latest-news" class="news">
+
+            <!-- <div class="card">
+                <div class="card-img"><img src="/img/news.jpg"></div>
+                <div class="card-title"><h3>Breaking News is about to come after the covid news</h3> </div>
+                <div class="publish-date"><p>Publish Date : 18/12/2021</p></div>
+            </div> -->
+            
+                <div class="popup">
+                        <img class="icon-close" src="/img/close.png" alt="">
+                        
+                        <div class="summary">
+                            <div class="news-title"></div>
+                            <div class="news-summary"></div>
+                        </div>
+                </div>
+
+        </div>
+    </div>
+
+    <script src="/JS/news.js"></script>
+
+</body>
+</html>
